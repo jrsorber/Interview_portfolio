@@ -5,9 +5,9 @@
 
 /*  
     This sketch's primary purpose is to deploy the parachute from
-    Laelaps after a short delay once Laelaps is dropped. The microcontroller
-    on Laelaps (currently Seeed Studio XIAO SAMD21) watches for a
-    loss of external voltage to signal having been dropped, and then
+    Laelaps (The bottle frame) after a short delay once Laelaps is
+    dropped. The microcontroller on Laelaps (currently Seeed Studio XIAO SAMD21)
+    watches for a loss of external voltage to signal having been dropped, and then
     waits a specified time before releasing the parachute. This sketch
     also performs several other tasks to make interacting with Laelaps
     more user friendly. These tasks are explained in following comments
